@@ -1,0 +1,7 @@
+**/__pycache__/**/*
+.venv/**/*
+.tox/**/*
+dist/**/*
+!scaffold-1.0.0-py3-none-any.whl
+src/*.egg-info/**/*
+.DS_Store

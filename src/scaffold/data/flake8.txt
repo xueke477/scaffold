@@ -1,0 +1,4 @@
+[flake8]
+; per-file-ignore =
+;     adhoc/*:E501
+;     src/package_name/mod1.py:E501
