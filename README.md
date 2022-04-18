@@ -56,7 +56,7 @@ After scaffolding, the project folder has the following structure.
 ## Installation
 
 This repo itself uses the same src layout that it scaffolds. It is built into a distribution
-package named encapsulated in the `dist/scaffold-1.0.0-py3-none-any.whl` wheel
+package encapsulated in the `dist/scaffold-1.0.0-py3-none-any.whl` wheel
 file. After installing the distribution package in the _global environment_ of a Python
 interpreter, the package places an executable `scaffold.exe` in the `Scripts` folder of the
 global environment on Windows, or `scaffold` in the `bin` folder on \*nix. Afterwards, create
@@ -86,19 +86,20 @@ an alias to the executable and `scaffold` is available as a command from CLI.
         With PowerShell, put the following in the start-up script.
 
         ```
-        Set-Alias -Name scaffold -Value C:\Users\your_name\AppData\Local\Programs\Python\Python38\Scripts\scaffold.exe
+        Set-Alias -Name scaffold -Value C:\Users\{your_name}\AppData\Local\Programs\Python\Python38\Scripts\scaffold.exe
         ```
 
         With zsh on macOS, put the following in `.zshrc`:
 
         ```
-        alias scaffold='/Users/your_name/Library/Python/3.8/bin/scaffold'
+        alias scaffold='/Users/{your_name}/Library/Python/3.8/bin/scaffold'
         ```
 
 ### Build wheel from source
 
   Alternatively, the wheel file can be built from source by the user.
-  After cloning the repo, run the following commands _in a virtual environment_:
+  After cloning the repo, delete the old wheel file and run the following
+  commands in a virtual environment specifically created for this repo:
 
   ```
   pip install requirements-dev.txt
