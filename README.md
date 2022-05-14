@@ -107,3 +107,13 @@ an alias to the executable and `scaffold` is available as a command from CLI.
   ```
 
   The rest of the installation steps are the same.
+
+
+### pip install from GitHub
+
+  Finally, the package can be installed directly from GitHub:
+
+  ```
+  pip install git+https://github.com/xueke477/scaffold.git@master
+  ```
+
