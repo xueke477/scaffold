@@ -56,7 +56,6 @@ def main() -> None:
     copy_config_file('pytest.ini', 'pytest.txt')
     copy_config_file('pyproject.toml', 'pyproject.txt')
     copy_config_file('setup.cfg', 'setup_cfg.txt')
-    copy_config_file('setup.py', 'setup_py.txt')
     copy_config_file('requirements-dev.txt', 'requirements-dev.txt')
     touch_file('README.md')
     touch_file('LICENSE')
