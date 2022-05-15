@@ -2,6 +2,8 @@
 .venv/**/*
 .tox/**/*
 dist/**/*
-!scaffold-1.0.0-py3-none-any.whl
+!scaffold-1.0.1-py3-none-any.whl
 src/*.egg-info/**/*
 .DS_Store
+build/**/*
+.python-version
